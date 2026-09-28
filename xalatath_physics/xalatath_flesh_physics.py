@@ -73,6 +73,12 @@ ZONES = ("Hips & Thighs", "Stomach & Torso", "Breasts", "Calves & Knees", "Face 
 
 PANEL_SOURCE = '''import bpy
 ZONES = %r
+def socket_prop(gm, identifier):
+    # Blender 5.2+: mod.properties.inputs.<id>.value; older: ID property on the modifier
+    props = getattr(gm, 'properties', None)
+    if props is not None and hasattr(props, 'inputs'):
+        return getattr(props.inputs, identifier), 'value'
+    return gm, '["%%s"]' %% identifier
 class XAL_PT_flesh_physics(bpy.types.Panel):
     bl_label = "Xalatath Physics"
     bl_space_type = 'VIEW_3D'
@@ -96,12 +102,14 @@ class XAL_PT_flesh_physics(bpy.types.Panel):
         col = box.column(align=True)
         for name in ZONES:
             if name in ids:
-                col.prop(gm, '["%%s"]' %% ids[name], text=name, toggle=True)
+                owner, attr = socket_prop(gm, ids[name])
+                col.prop(owner, attr, text=name, toggle=True)
         box2 = lay.box(); box2.enabled = on
         box2.label(text="Feel:")
         for name in ("Amount", "Inertia", "Stiffness", "Damping", "Substeps"):
             if name in ids:
-                box2.prop(gm, '["%%s"]' %% ids[name], text=name)
+                owner, attr = socket_prop(gm, ids[name])
+                box2.prop(owner, attr, text=name)
         lay.label(text="Play from the first frame to simulate.")
 def register():
     try: bpy.utils.unregister_class(bpy.types.XAL_PT_flesh_physics)
@@ -180,11 +188,20 @@ def add_modifier(body, ng, col):
     body.modifiers.move(body.modifiers.find(MOD_NAME), arm_idx + 1)
     ids = {it.name: it.identifier for it in ng.interface.items_tree
            if it.item_type == "SOCKET" and it.in_out == "INPUT"}
-    mod[ids["Colliders"]] = col
+    set_input(mod, ids["Colliders"], col)
     for name, value in SETTINGS.items():
         if name in ids:
-            mod[ids[name]] = value
+            set_input(mod, ids[name], value)
     return mod
+
+
+def set_input(mod, identifier, value):
+    # Blender 5.2+ exposes inputs as mod.properties.inputs; older versions use ID properties
+    props = getattr(mod, "properties", None)
+    if props is not None and hasattr(props, "inputs"):
+        getattr(props.inputs, identifier).value = value
+    else:
+        mod[identifier] = value
 
 
 def add_toggle(rig, body):

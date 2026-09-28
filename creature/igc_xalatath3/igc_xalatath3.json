@@ -1,0 +1,1581 @@
+{
+	"fileType": "m2",
+	"fileDataID": 6403221,
+	"fileName": "creature/igc_xalatath3/igc_xalatath3.m2",
+	"internalName": "",
+	"textures": [
+		{
+			"fileNameInternal": "creature/igc_xalatath3/fb_shadoweataway_void1_ba.blp",
+			"fileNameExternal": "fb_shadoweataway_void1_ba.png",
+			"mtlName": "mat_fb_shadoweataway_void1_ba",
+			"flags": 3,
+			"fileDataID": 6794486
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/clouds01_discpriest_bluepurple_alphalift.blp",
+			"fileNameExternal": "clouds01_discpriest_bluepurple_alphalift.png",
+			"mtlName": "mat_clouds01_discpriest_bluepurple_alphalift",
+			"flags": 3,
+			"fileDataID": 6794487
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794506.blp",
+			"fileNameExternal": "igc_xalatath3_6794506.png",
+			"mtlName": "mat_igc_xalatath3_6794506",
+			"flags": 3,
+			"fileDataID": 6794506
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794490.blp",
+			"fileNameExternal": "igc_xalatath3_6794490.png",
+			"mtlName": "mat_igc_xalatath3_6794490",
+			"flags": 3,
+			"fileDataID": 6794490
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794493.blp",
+			"fileNameExternal": "igc_xalatath3_6794493.png",
+			"mtlName": "mat_igc_xalatath3_6794493",
+			"flags": 3,
+			"fileDataID": 6794493
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794488.blp",
+			"fileNameExternal": "igc_xalatath3_6794488.png",
+			"mtlName": "mat_igc_xalatath3_6794488",
+			"flags": 3,
+			"fileDataID": 6794488
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794489.blp",
+			"fileNameExternal": "igc_xalatath3_6794489.png",
+			"mtlName": "mat_igc_xalatath3_6794489",
+			"flags": 3,
+			"fileDataID": 6794489
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/armorreflect_rainbow.blp",
+			"fileNameExternal": "armorreflect_rainbow.png",
+			"mtlName": "mat_armorreflect_rainbow",
+			"flags": 3,
+			"fileDataID": 7083476
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794492.blp",
+			"fileNameExternal": "igc_xalatath3_6794492.png",
+			"mtlName": "mat_igc_xalatath3_6794492",
+			"flags": 3,
+			"fileDataID": 6794492
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794494.blp",
+			"fileNameExternal": "igc_xalatath3_6794494.png",
+			"mtlName": "mat_igc_xalatath3_6794494",
+			"flags": 3,
+			"fileDataID": 6794494
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794495.blp",
+			"fileNameExternal": "igc_xalatath3_6794495.png",
+			"mtlName": "mat_igc_xalatath3_6794495",
+			"flags": 3,
+			"fileDataID": 6794495
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794491.blp",
+			"fileNameExternal": "igc_xalatath3_6794491.png",
+			"mtlName": "mat_igc_xalatath3_6794491",
+			"flags": 3,
+			"fileDataID": 6794491
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794496.blp",
+			"fileNameExternal": "igc_xalatath3_6794496.png",
+			"mtlName": "mat_igc_xalatath3_6794496",
+			"flags": 3,
+			"fileDataID": 6794496
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794497.blp",
+			"fileNameExternal": "igc_xalatath3_6794497.png",
+			"mtlName": "mat_igc_xalatath3_6794497",
+			"flags": 3,
+			"fileDataID": 6794497
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794498.blp",
+			"fileNameExternal": "igc_xalatath3_6794498.png",
+			"mtlName": "mat_igc_xalatath3_6794498",
+			"flags": 3,
+			"fileDataID": 6794498
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/7fx_alphamask_glowbright_sr512.blp",
+			"fileNameExternal": "7fx_alphamask_glowbright_sr512.png",
+			"mtlName": "mat_7fx_alphamask_glowbright_sr512",
+			"flags": 3,
+			"fileDataID": 6794499
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794500.blp",
+			"fileNameExternal": "igc_xalatath3_6794500.png",
+			"mtlName": "mat_igc_xalatath3_6794500",
+			"flags": 3,
+			"fileDataID": 6794500
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/metal_reflect.blp",
+			"fileNameExternal": "metal_reflect.png",
+			"mtlName": "mat_metal_reflect",
+			"flags": 3,
+			"fileDataID": 6794501
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794502.blp",
+			"fileNameExternal": "igc_xalatath3_6794502.png",
+			"mtlName": "mat_igc_xalatath3_6794502",
+			"flags": 3,
+			"fileDataID": 6794502
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/armorreflect4.blp",
+			"fileNameExternal": "armorreflect4.png",
+			"mtlName": "mat_armorreflect4",
+			"flags": 3,
+			"fileDataID": 6794503
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794504.blp",
+			"fileNameExternal": "igc_xalatath3_6794504.png",
+			"mtlName": "mat_igc_xalatath3_6794504",
+			"flags": 3,
+			"fileDataID": 6794504
+		},
+		{
+			"fileNameInternal": "creature/igc_xalatath3/igc_xalatath3_6794505.blp",
+			"fileNameExternal": "igc_xalatath3_6794505.png",
+			"mtlName": "mat_igc_xalatath3_6794505",
+			"flags": 3,
+			"fileDataID": 6794505
+		}
+	],
+	"textureTypes": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"materials": [
+		{
+			"flags": 4,
+			"blendingMode": 0
+		},
+		{
+			"flags": 16,
+			"blendingMode": 2
+		},
+		{
+			"flags": 0,
+			"blendingMode": 0
+		},
+		{
+			"flags": 16,
+			"blendingMode": 2
+		},
+		{
+			"flags": 0,
+			"blendingMode": 0
+		},
+		{
+			"flags": 16,
+			"blendingMode": 2
+		},
+		{
+			"flags": 21,
+			"blendingMode": 2
+		},
+		{
+			"flags": 17,
+			"blendingMode": 4
+		},
+		{
+			"flags": 0,
+			"blendingMode": 0
+		},
+		{
+			"flags": 16,
+			"blendingMode": 2
+		},
+		{
+			"flags": 1,
+			"blendingMode": 0
+		},
+		{
+			"flags": 17,
+			"blendingMode": 4
+		},
+		{
+			"flags": 17,
+			"blendingMode": 4
+		},
+		{
+			"flags": 16,
+			"blendingMode": 2
+		},
+		{
+			"flags": 16,
+			"blendingMode": 4
+		},
+		{
+			"flags": 0,
+			"blendingMode": 0
+		},
+		{
+			"flags": 19,
+			"blendingMode": 2
+		},
+		{
+			"flags": 17,
+			"blendingMode": 4
+		},
+		{
+			"flags": 4,
+			"blendingMode": 1
+		},
+		{
+			"flags": 0,
+			"blendingMode": 0
+		}
+	],
+	"textureCombos": [
+		2,
+		21,
+		9,
+		5,
+		3,
+		4,
+		6,
+		3,
+		7,
+		20,
+		3,
+		8,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		10,
+		11
+	],
+	"animFileIDs": [
+		{
+			"animID": 1452,
+			"subAnimID": 0,
+			"fileDataID": 7083477
+		},
+		{
+			"animID": 1452,
+			"subAnimID": 1,
+			"fileDataID": 7083478
+		},
+		{
+			"animID": 1452,
+			"subAnimID": 2,
+			"fileDataID": 7083479
+		},
+		{
+			"animID": 1452,
+			"subAnimID": 3,
+			"fileDataID": 7083480
+		},
+		{
+			"animID": 1452,
+			"subAnimID": 4,
+			"fileDataID": 7083481
+		},
+		{
+			"animID": 1452,
+			"subAnimID": 5,
+			"fileDataID": 7083482
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 0,
+			"fileDataID": 7083483
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 1,
+			"fileDataID": 7083484
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 2,
+			"fileDataID": 7083485
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 3,
+			"fileDataID": 7083486
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 4,
+			"fileDataID": 7083487
+		},
+		{
+			"animID": 1454,
+			"subAnimID": 5,
+			"fileDataID": 7083488
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 0,
+			"fileDataID": 7083489
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 1,
+			"fileDataID": 7083490
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 2,
+			"fileDataID": 7083491
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 3,
+			"fileDataID": 7083492
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 4,
+			"fileDataID": 7083493
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 5,
+			"fileDataID": 7083494
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 6,
+			"fileDataID": 7083496
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 7,
+			"fileDataID": 7083497
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 8,
+			"fileDataID": 7083498
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 9,
+			"fileDataID": 7083500
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 10,
+			"fileDataID": 7083502
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 11,
+			"fileDataID": 7083504
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 12,
+			"fileDataID": 7083506
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 13,
+			"fileDataID": 7083508
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 14,
+			"fileDataID": 7083510
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 15,
+			"fileDataID": 7083512
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 16,
+			"fileDataID": 7083514
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 17,
+			"fileDataID": 7083515
+		},
+		{
+			"animID": 1456,
+			"subAnimID": 18,
+			"fileDataID": 7083517
+		},
+		{
+			"animID": 1458,
+			"subAnimID": 0,
+			"fileDataID": 7265875
+		}
+	],
+	"colors": [],
+	"textureWeights": [
+		{
+			"globalSeq": 65535,
+			"interpolation": 0,
+			"timestamps": [
+				[
+					0
+				]
+			],
+			"values": [
+				[
+					32767
+				]
+			],
+			"timestampOffsets": null,
+			"valueOffsets": null
+		},
+		{
+			"globalSeq": 65535,
+			"interpolation": 0,
+			"timestamps": [
+				[
+					0
+				]
+			],
+			"values": [
+				[
+					29490
+				]
+			],
+			"timestampOffsets": null,
+			"valueOffsets": null
+		}
+	],
+	"transparencyLookup": [
+		0,
+		1
+	],
+	"textureTransforms": [
+		{
+			"translation": {
+				"globalSeq": 0,
+				"interpolation": 1,
+				"timestamps": [
+					[
+						0,
+						10000
+					]
+				],
+				"values": [
+					[
+						[
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							1,
+							0
+						]
+					]
+				],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"rotation": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"scaling": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			}
+		},
+		{
+			"translation": {
+				"globalSeq": 1,
+				"interpolation": 1,
+				"timestamps": [
+					[
+						0,
+						33333
+					]
+				],
+				"values": [
+					[
+						[
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							1,
+							0
+						]
+					]
+				],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"rotation": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"scaling": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			}
+		},
+		{
+			"translation": {
+				"globalSeq": 2,
+				"interpolation": 1,
+				"timestamps": [
+					[
+						0,
+						6667
+					]
+				],
+				"values": [
+					[
+						[
+							0,
+							0,
+							0
+						],
+						[
+							0,
+							1,
+							0
+						]
+					]
+				],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"rotation": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"scaling": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			}
+		},
+		{
+			"translation": {
+				"globalSeq": 3,
+				"interpolation": 1,
+				"timestamps": [
+					[
+						0,
+						30000
+					]
+				],
+				"values": [
+					[
+						[
+							0,
+							0,
+							0
+						],
+						[
+							-1,
+							1,
+							0
+						]
+					]
+				],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"rotation": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"scaling": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			}
+		},
+		{
+			"translation": {
+				"globalSeq": 3,
+				"interpolation": 1,
+				"timestamps": [
+					[
+						0,
+						30000
+					]
+				],
+				"values": [
+					[
+						[
+							0,
+							0,
+							0
+						],
+						[
+							1,
+							1,
+							0
+						]
+					]
+				],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"rotation": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			},
+			"scaling": {
+				"globalSeq": 65535,
+				"interpolation": 0,
+				"timestamps": [],
+				"values": [],
+				"timestampOffsets": null,
+				"valueOffsets": null
+			}
+		}
+	],
+	"textureTransformsLookup": [
+		65535,
+		0,
+		65535,
+		65535,
+		1,
+		65535,
+		2,
+		3,
+		65535,
+		4,
+		65535
+	],
+	"boundingBox": {
+		"min": [
+			-5.391719818115234,
+			-8.063034057617188,
+			-23.06593132019043
+		],
+		"max": [
+			20.042285919189453,
+			29.268142700195312,
+			3.5075011253356934
+		]
+	},
+	"boundingSphereRadius": 34.02417755126953,
+	"collisionBox": {
+		"min": [
+			10000000,
+			10000000,
+			10000000
+		],
+		"max": [
+			-10000000,
+			-10000000,
+			-10000000
+		]
+	},
+	"collisionSphereRadius": 0,
+	"skin": {
+		"subMeshes": [
+			{
+				"enabled": true,
+				"submeshID": 0,
+				"level": 0,
+				"vertexStart": 0,
+				"vertexCount": 8,
+				"triangleStart": 0,
+				"triangleCount": 12,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 52,
+				"centerPosition": [
+					-0.07807061076164246,
+					-0.0011607278138399124,
+					1.8211002349853516
+				],
+				"sortCenterPosition": [
+					-0.07807046175003052,
+					-0.001164272427558899,
+					1.8211002349853516
+				],
+				"sortRadius": 0.40477338433265686
+			},
+			{
+				"enabled": true,
+				"submeshID": 0,
+				"level": 0,
+				"vertexStart": 8,
+				"vertexCount": 594,
+				"triangleStart": 12,
+				"triangleCount": 1731,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 2,
+				"centerPosition": [
+					-0.07423660904169083,
+					-0.09878101944923401,
+					1.2424306869506836
+				],
+				"sortCenterPosition": [
+					-0.08742004632949829,
+					-0.09141512215137482,
+					0.9761269092559814
+				],
+				"sortRadius": 0.9712427258491516
+			},
+			{
+				"enabled": true,
+				"submeshID": 0,
+				"level": 0,
+				"vertexStart": 602,
+				"vertexCount": 3340,
+				"triangleStart": 1743,
+				"triangleCount": 15789,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 80,
+				"centerPosition": [
+					-0.005654980428516865,
+					-0.0004840679466724396,
+					1.7622151374816895
+				],
+				"sortCenterPosition": [
+					-0.005654980428516865,
+					-0.0004840679466724396,
+					1.7622151374816895
+				],
+				"sortRadius": 0.2281247228384018
+			},
+			{
+				"enabled": true,
+				"submeshID": 100,
+				"level": 0,
+				"vertexStart": 3942,
+				"vertexCount": 11910,
+				"triangleStart": 17532,
+				"triangleCount": 61128,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 80,
+				"centerPosition": [
+					-0.01611245423555374,
+					0.011011299677193165,
+					1.171873688697815
+				],
+				"sortCenterPosition": [
+					-0.03235524147748947,
+					2.086162567138672e-7,
+					0.9859534502029419
+				],
+				"sortRadius": 1.008750557899475
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 15852,
+				"vertexCount": 428,
+				"triangleStart": 78660,
+				"triangleCount": 1272,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 52,
+				"centerPosition": [
+					-0.06541144847869873,
+					0.001858890987932682,
+					1.8252774477005005
+				],
+				"sortCenterPosition": [
+					-0.06541144847869873,
+					0.001858890987932682,
+					1.8252774477005005
+				],
+				"sortRadius": 0.3330591320991516
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 16280,
+				"vertexCount": 1014,
+				"triangleStart": 79932,
+				"triangleCount": 5028,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 3,
+				"centerBoneIndex": 169,
+				"centerPosition": [
+					0.03231767937541008,
+					0.000014125528650765773,
+					1.746438980102539
+				],
+				"sortCenterPosition": [
+					0.027022935450077057,
+					0.000013570301234722137,
+					1.7454497814178467
+				],
+				"sortRadius": 0.03950146585702896
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 17294,
+				"vertexCount": 56,
+				"triangleStart": 84960,
+				"triangleCount": 198,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 80,
+				"centerPosition": [
+					0.04325786978006363,
+					0.000015785852156113833,
+					1.82114839553833
+				],
+				"sortCenterPosition": [
+					0.04325786978006363,
+					0.000015785852156113833,
+					1.82114839553833
+				],
+				"sortRadius": 0.05935584381222725
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 17350,
+				"vertexCount": 356,
+				"triangleStart": 85158,
+				"triangleCount": 1920,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 87,
+				"centerPosition": [
+					0.034048836678266525,
+					0.000021378456949605606,
+					1.8180935382843018
+				],
+				"sortCenterPosition": [
+					0.029653258621692657,
+					0.00002121366560459137,
+					1.8180941343307495
+				],
+				"sortRadius": 0.04945632070302963
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 17706,
+				"vertexCount": 9812,
+				"triangleStart": 87078,
+				"triangleCount": 31836,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 57,
+				"centerPosition": [
+					-0.07962369173765182,
+					-0.04384860768914223,
+					1.619206428527832
+				],
+				"sortCenterPosition": [
+					-0.11298102885484695,
+					-0.059496209025382996,
+					1.3917951583862305
+				],
+				"sortRadius": 0.6625122427940369
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 27518,
+				"vertexCount": 288,
+				"triangleStart": 118914,
+				"triangleCount": 1272,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 223,
+				"centerPosition": [
+					0.03979739546775818,
+					0.00002533148835937027,
+					1.8547581434249878
+				],
+				"sortCenterPosition": [
+					0.02792251855134964,
+					0.000026263296604156494,
+					1.8570170402526855
+				],
+				"sortRadius": 0.17914319038391113
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 27806,
+				"vertexCount": 356,
+				"triangleStart": 120186,
+				"triangleCount": 1920,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 87,
+				"centerPosition": [
+					0.03422018513083458,
+					0.000021390387701103464,
+					1.8180925846099854
+				],
+				"sortCenterPosition": [
+					0.029653260484337807,
+					0.00002121366560459137,
+					1.8180941343307495
+				],
+				"sortRadius": 0.05015076696872711
+			},
+			{
+				"enabled": true,
+				"submeshID": 200,
+				"level": 1,
+				"vertexStart": 28162,
+				"vertexCount": 202,
+				"triangleStart": 122106,
+				"triangleCount": 774,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 43,
+				"centerPosition": [
+					-0.06521842628717422,
+					-0.0008725033840164542,
+					1.675687313079834
+				],
+				"sortCenterPosition": [
+					-0.06601833552122116,
+					-0.00249519944190979,
+					1.6736221313476562
+				],
+				"sortRadius": 0.07069233804941177
+			},
+			{
+				"enabled": true,
+				"submeshID": 300,
+				"level": 1,
+				"vertexStart": 28364,
+				"vertexCount": 6497,
+				"triangleStart": 122880,
+				"triangleCount": 26286,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 2,
+				"centerPosition": [
+					-0.08080807328224182,
+					0.08199488371610641,
+					1.177561640739441
+				],
+				"sortCenterPosition": [
+					-0.12704581022262573,
+					0.053032949566841125,
+					0.9149535298347473
+				],
+				"sortRadius": 0.769155740737915
+			},
+			{
+				"enabled": true,
+				"submeshID": 300,
+				"level": 2,
+				"vertexStart": 34861,
+				"vertexCount": 620,
+				"triangleStart": 149166,
+				"triangleCount": 2874,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 61,
+				"centerPosition": [
+					-0.2634948790073395,
+					1.0404374961581198e-7,
+					1.019903302192688
+				],
+				"sortCenterPosition": [
+					-0.27175140380859375,
+					-5.960464477539063e-8,
+					0.8973397016525269
+				],
+				"sortRadius": 0.7216367721557617
+			},
+			{
+				"enabled": true,
+				"submeshID": 300,
+				"level": 2,
+				"vertexStart": 35481,
+				"vertexCount": 1240,
+				"triangleStart": 152040,
+				"triangleCount": 5748,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 61,
+				"centerPosition": [
+					-0.2623482644557953,
+					6.275311648096249e-8,
+					1.020035743713379
+				],
+				"sortCenterPosition": [
+					-0.2710007429122925,
+					-1.043081283569336e-7,
+					0.8972481489181519
+				],
+				"sortRadius": 0.721738338470459
+			},
+			{
+				"enabled": true,
+				"submeshID": 400,
+				"level": 2,
+				"vertexStart": 36721,
+				"vertexCount": 2330,
+				"triangleStart": 157788,
+				"triangleCount": 9690,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 19,
+				"centerPosition": [
+					-0.07580346614122391,
+					0.02301737293601036,
+					0.30613863468170166
+				],
+				"sortCenterPosition": [
+					-0.038559235632419586,
+					0.1823776364326477,
+					0.5024860501289368
+				],
+				"sortRadius": 0.6060640811920166
+			},
+			{
+				"enabled": true,
+				"submeshID": 400,
+				"level": 2,
+				"vertexStart": 39051,
+				"vertexCount": 516,
+				"triangleStart": 167478,
+				"triangleCount": 2688,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 1,
+				"centerPosition": [
+					5.630855639537913e-7,
+					2.014255873206139e-9,
+					0.024711236357688904
+				],
+				"sortCenterPosition": [
+					5.630855639537913e-7,
+					2.014255873206139e-9,
+					0.024711236357688904
+				],
+				"sortRadius": 0.14734478294849396
+			},
+			{
+				"enabled": true,
+				"submeshID": 400,
+				"level": 2,
+				"vertexStart": 39567,
+				"vertexCount": 516,
+				"triangleStart": 170166,
+				"triangleCount": 2688,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 1,
+				"centerPosition": [
+					5.623022616418893e-7,
+					-4.050170421265875e-9,
+					0.024357186630368233
+				],
+				"sortCenterPosition": [
+					2.1606683731079102e-7,
+					0,
+					0.024340910837054253
+				],
+				"sortRadius": 0.14713604748249054
+			},
+			{
+				"enabled": true,
+				"submeshID": 400,
+				"level": 2,
+				"vertexStart": 40083,
+				"vertexCount": 900,
+				"triangleStart": 172854,
+				"triangleCount": 4992,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 1,
+				"centerPosition": [
+					5.765693913417635e-7,
+					-5.80317438547695e-9,
+					0.02463138848543167
+				],
+				"sortCenterPosition": [
+					5.765693913417635e-7,
+					-5.80317438547695e-9,
+					0.02463138848543167
+				],
+				"sortRadius": 0.14944203197956085
+			},
+			{
+				"enabled": true,
+				"submeshID": 400,
+				"level": 2,
+				"vertexStart": 40983,
+				"vertexCount": 2546,
+				"triangleStart": 177846,
+				"triangleCount": 14136,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 1,
+				"centerBoneIndex": 1,
+				"centerPosition": [
+					5.244377803137468e-7,
+					3.53361206961722e-9,
+					0.024370867758989334
+				],
+				"sortCenterPosition": [
+					5.244377803137468e-7,
+					3.53361206961722e-9,
+					0.024370867758989334
+				],
+				"sortRadius": 0.16065146028995514
+			},
+			{
+				"enabled": true,
+				"submeshID": 500,
+				"level": 2,
+				"vertexStart": 43529,
+				"vertexCount": 6291,
+				"triangleStart": 191982,
+				"triangleCount": 30525,
+				"boneCount": 256,
+				"boneStart": 0,
+				"boneInfluences": 4,
+				"centerBoneIndex": 0,
+				"centerPosition": [
+					-0.04879768192768097,
+					-0.0007926163962110877,
+					1.1892045736312866
+				],
+				"sortCenterPosition": [
+					-0.07887748628854752,
+					-2.980232238769531e-7,
+					0.9713650941848755
+				],
+				"sortRadius": 0.9039186239242554
+			}
+		],
+		"textureUnits": [
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 32768,
+				"skinSectionIndex": 8,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 0,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 7,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 32768,
+				"skinSectionIndex": 12,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 0,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 7,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 32768,
+				"skinSectionIndex": 15,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 0,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 7,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 32768,
+				"skinSectionIndex": 20,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 2,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 20,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 32768,
+				"skinSectionIndex": 19,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 4,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 18,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 0,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 6,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 0,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 128,
+				"priority": 0,
+				"shaderID": 16401,
+				"skinSectionIndex": 4,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 7,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 4,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 0,
+				"skinSectionIndex": 3,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 8,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 3,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 0,
+				"skinSectionIndex": 5,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 8,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 3,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 6,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 9,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 3,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 0,
+				"skinSectionIndex": 7,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 10,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 6,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 128,
+				"priority": 0,
+				"shaderID": 16401,
+				"skinSectionIndex": 13,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 11,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 10,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 3
+			},
+			{
+				"flags": 128,
+				"priority": 0,
+				"shaderID": 16401,
+				"skinSectionIndex": 14,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 12,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 4,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 5
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 9,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 13,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 2,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 128,
+				"priority": 0,
+				"shaderID": 16401,
+				"skinSectionIndex": 16,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 14,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 12,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 7
+			},
+			{
+				"flags": 128,
+				"priority": 0,
+				"shaderID": 16385,
+				"skinSectionIndex": 17,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 15,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 14,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 9
+			},
+			{
+				"flags": 144,
+				"priority": 0,
+				"shaderID": 28,
+				"skinSectionIndex": 18,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 16,
+				"materialLayer": 0,
+				"textureCount": 2,
+				"textureComboIndex": 16,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 1,
+				"textureTransformComboIndex": 2
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 10,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 17,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 9,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 1,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 18,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 1,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 16,
+				"skinSectionIndex": 11,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 18,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 1,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			},
+			{
+				"flags": 16,
+				"priority": 0,
+				"shaderID": 0,
+				"skinSectionIndex": 2,
+				"flags2": 0,
+				"colorIndex": 65535,
+				"materialIndex": 19,
+				"materialLayer": 0,
+				"textureCount": 1,
+				"textureComboIndex": 2,
+				"textureCoordComboIndex": 0,
+				"textureWeightComboIndex": 0,
+				"textureTransformComboIndex": 0
+			}
+		],
+		"fileName": "creature/igc_xalatath3/igc_xalatath300.skin",
+		"fileDataID": 6794507
+	}
+}

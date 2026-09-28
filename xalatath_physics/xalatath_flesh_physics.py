@@ -25,6 +25,8 @@ Notes
 - Objects in the 'KP_Colliders' collection push the flesh (hands, props).
   Xalatath's own hands are colliders already ('Own Hands Collide').
 - Settings in metres (gaps, contact depth) are scaled to Xalatath's size.
+- Inertia is 0 like Kiriko's setup: flesh reacts to hands/props pressing in,
+  not to her own movement. Raise Inertia (1.0 tested) for jiggle on motion.
 """
 
 import os
@@ -97,7 +99,7 @@ class XAL_PT_flesh_physics(bpy.types.Panel):
                 col.prop(gm, '["%%s"]' %% ids[name], text=name, toggle=True)
         box2 = lay.box(); box2.enabled = on
         box2.label(text="Feel:")
-        for name in ("Amount", "Stiffness", "Damping", "Substeps"):
+        for name in ("Amount", "Inertia", "Stiffness", "Damping", "Substeps"):
             if name in ids:
                 box2.prop(gm, '["%%s"]' %% ids[name], text=name)
         lay.label(text="Play from the first frame to simulate.")
@@ -119,13 +121,19 @@ def append_node_group():
     path = bpy.path.abspath(KIRI_BLEND) if KIRI_BLEND else os.path.join(blend_dir(), "KiriContent_005.blend")
     if not os.path.isfile(path):
         raise FileNotFoundError(f"Set KIRI_BLEND to the path of KiriContent_005.blend (tried: {path})")
+    before_cols = set(bpy.data.collections)
+    before_objs = set(bpy.data.objects)
     with bpy.data.libraries.load(path, link=False) as (src, dst):
         dst.node_groups = [NODE_GROUP]
     ng = bpy.data.node_groups[NODE_GROUP]
-    # the default collider collection came from Kiriko's file; the modifier gets Xalatath's own
+    # the node group drags in Kiriko's collider collection and test props; the modifier gets Xalatath's own
     for it in ng.interface.items_tree:
         if getattr(it, "socket_type", "") == "NodeSocketCollection":
             it.default_value = None
+    for ob in set(bpy.data.objects) - before_objs:
+        bpy.data.objects.remove(ob)
+    for col in set(bpy.data.collections) - before_cols:
+        bpy.data.collections.remove(col)
     return ng
 
 
@@ -155,6 +163,8 @@ def colliders_collection():
     col = bpy.data.collections.get(COLLIDERS)
     if col is None:
         col = bpy.data.collections.new(COLLIDERS)
+    scene_cols = {c for c in bpy.context.scene.collection.children_recursive}
+    if col not in scene_cols:
         bpy.context.scene.collection.children.link(col)
     return col
 

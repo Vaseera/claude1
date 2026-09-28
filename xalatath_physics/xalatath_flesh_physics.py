@@ -86,16 +86,15 @@ class XAL_PT_flesh_physics(bpy.types.Panel):
     bl_category = "Xalatath Physics"
     def draw(self, context):
         lay = self.layout
-        r = bpy.data.objects.get(%r)
         body = bpy.data.objects.get(%r)
-        if r is None or %r not in r or body is None:
-            lay.label(text="Xalatath rig / body not found"); return
-        on = bool(r[%r])
+        gm = body.modifiers.get(%r) if body else None
+        if gm is None or gm.node_group is None:
+            lay.label(text="Run xalatath_flesh_physics.py first"); return
+        on = gm.show_viewport
         row = lay.row(); row.scale_y = 1.6
-        row.prop(r, '["%s"]', text=("Flesh Physics: ON" if on else "Flesh Physics: OFF (fast)"), toggle=True,
+        row.prop(gm, 'show_viewport', text=("Flesh Physics: ON" if on else "Flesh Physics: OFF (fast)"), toggle=True,
                  icon=('PHYSICS' if on else 'HIDE_ON'))
-        gm = body.modifiers.get(%r)
-        if gm is None or gm.node_group is None: return
+        lay.prop(gm, 'show_render', text="Use in renders", toggle=True)
         ids = {it.name: it.identifier for it in gm.node_group.interface.items_tree if getattr(it, 'in_out', '') == 'INPUT'}
         box = lay.box(); box.enabled = on
         box.label(text="Areas (off areas cost no CPU):")
@@ -116,7 +115,7 @@ def register():
     except Exception: pass
     bpy.utils.register_class(XAL_PT_flesh_physics)
 register()
-''' % (ZONES, RIG_NAME, BODY_NAME, TOGGLE_PROP, TOGGLE_PROP, TOGGLE_PROP, MOD_NAME)
+''' % (ZONES, BODY_NAME, MOD_NAME)
 
 
 def blend_dir():
@@ -205,20 +204,14 @@ def set_input(mod, identifier, value):
 
 
 def add_toggle(rig, body):
-    if TOGGLE_PROP not in rig:
-        rig[TOGGLE_PROP] = False
-    ui = rig.id_properties_ui(TOGGLE_PROP)
-    ui.update(description="Turn Xalatath's flesh simulation on/off (off = fast playback)")
+    # the panel button switches the modifier directly; remove the driver-based switch from earlier versions
     for path in (f'modifiers["{MOD_NAME}"].show_viewport', f'modifiers["{MOD_NAME}"].show_render'):
         body.driver_remove(path)
-        fc = body.driver_add(path)
-        d = fc.driver
-        d.type = "SCRIPTED"
-        v = d.variables.new()
-        v.name = "on"
-        v.targets[0].id = rig
-        v.targets[0].data_path = f'["{TOGGLE_PROP}"]'
-        d.expression = "on"
+    if TOGGLE_PROP in rig:
+        del rig[TOGGLE_PROP]
+    mod = body.modifiers[MOD_NAME]
+    mod.show_viewport = True
+    mod.show_render = True
     txt = bpy.data.texts.get("xalatath_physics_toggle.py") or bpy.data.texts.new("xalatath_physics_toggle.py")
     txt.clear()
     txt.write(PANEL_SOURCE)
